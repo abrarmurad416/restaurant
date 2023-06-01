@@ -1,5 +1,5 @@
 ::selection {
-    background: #f6c800;
+    background: #ffc107;
     color: #ffffff;
 }
 
@@ -8,7 +8,7 @@ body {
 }
 
 .nav-item .nav-link:hover {
-    color: #f6c800 !important;
+    color: #ffc107 !important;
 }
 
 .aboutustext {
@@ -61,4 +61,11 @@ body {
 .card-body {
     max-height: 100%;
     overflow: auto;
+}
+
+.button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
