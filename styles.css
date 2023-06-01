@@ -50,3 +50,7 @@ body {
         padding-right: 25px;
     }
 }
+
+.card-body {
+    height: 400px;
+}
