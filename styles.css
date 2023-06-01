@@ -16,6 +16,13 @@ body {
     padding-right: 500px;
 }
 
+@media (max-width: 1199px) {
+    .aboutustext {
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+}
+
 @media (max-width: 992px) {
     .aboutustext {
         padding-left: 300px;
@@ -52,5 +59,6 @@ body {
 }
 
 .card-body {
-    height: 400px;
+    max-height: 100%;
+    overflow: auto;
 }
