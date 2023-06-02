@@ -34,7 +34,7 @@
     </head>
     <body class="bg-light">
         <nav
-            class="navbaroriginal navbar navbar-expand-lg sticky-top p-3 navbar-scrolled"
+            class="navbar navbar-light navbar-expand-lg sticky-top p-3 bg-success"
         >
             <a class="navbar-brand" href="#top">Khan's Lahori Chaska & Paan</a>
             <button
@@ -70,18 +70,6 @@
                 </ul>
             </div>
         </nav>
-
-        <script>
-            const navEL = document.querySelector('.navbaroriginal');
-
-            window.addEventListener('scroll', () => {
-                if (window.scrollY >= 56) {
-                    navEL.classList.add('navbar-scrolled')
-                } else if (window.scrollY < 56) {
-                    navEL.classList.remove('navbar-scrolled')
-                }
-            })
-        </script>
 
         <h2 class="text-center mb-5 mt-5" id="about">About Us</h2>
         <p class="aboutustext text-center">
