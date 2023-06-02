@@ -3,6 +3,15 @@
     color: #ffffff;
 }
 
+.navbaroriginal {
+    transition: all 0.5s;
+}
+
+.navbar-scrolled {
+    background-color: #198754;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
 body {
     font-family: "Volkhov", serif;
 }
