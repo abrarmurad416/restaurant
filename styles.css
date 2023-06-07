@@ -9,6 +9,15 @@ body {
     padding: 0;
 }
 
+.landing {
+    height: 100vh;
+}
+
+.arrowicon {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
 .background-slide {
     position: absolute;
     top: 0;
@@ -17,11 +26,22 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    opacity: ;
+    opacity: 0;
+    background-color: rgba(
+        0,
+        0,
+        0,
+        0.6
+    ); /* Adjust the opacity value (0.6) to darken the background */
+    filter: brightness(
+        50%
+    ); /* Adjust the brightness value to darken the images (e.g., 50% for a darker effect) */
     animation: fade 24s infinite;
     animation-iteration-count: infinite;
     z-index: -1;
 }
+
+/* Rest of the code remains the same */
 
 .background-slide:nth-child(1) {
     animation-delay: 0s;
@@ -50,6 +70,17 @@ body {
 .background-slide:nth-child(7) {
     animation-delay: 24s;
 }
+
+/* Adjusted animation delay for looping effect */
+.background-slide:nth-child(8) {
+    animation-delay: 28s;
+}
+
+.background-slide:nth-child(9) {
+    animation-delay: 32s;
+}
+
+/* Continue adding more nth-child selectors and adjust animation-delay as needed */
 
 @keyframes fade {
     0% {
